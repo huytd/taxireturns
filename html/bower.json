@@ -1,0 +1,25 @@
+{
+  "name": "taxi",
+  "version": "0.0.1",
+  "homepage": "https://github.com/huytd/taxireturns",
+  "authors": [
+    "Huy Quan <anhhuydng@gmail.com>"
+  ],
+  "description": "bower taxi",
+  "main": "bower.json",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "angular": "~1.4.1"
+  }
+}
