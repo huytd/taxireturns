@@ -3,8 +3,10 @@
 
 from flask import Flask, Response, render_template
 import json
+from database import DataManager
 
 app = Flask("SuperTaxiReturns")
+db  = DataManager()
 
 @app.route("/v1/api")
 def api_home():
